@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Arquivo</title>
+</head>
+<body>
+<h1>Este teste e 10</h1>
+
+    {% if socio %}
+        {% for socio in socio %}
+
+      <tr> <th>{{ socio.id }}</th> <th>{{ socio.nome }} </th><th>{{ socio.cpf }} || <img src="/{{ socio.foto.url }}"></th></tr>
+        {% endfor %}
+
+  {% else %}
+     <h2>Não emcontrado</h2>
+  {% endif %}
+
+</body>
+</html>

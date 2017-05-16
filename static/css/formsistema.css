@@ -1,0 +1,31 @@
+#id_nome, #id_conjugue, #id_email, #id_profissao, #id_pai, #id_mae{
+    width: 450px!important;
+}
+#id_cpf, #id_titulo, #id_fator_rh, #id_matricula{
+    width: 150px!important;
+}
+#id_rg, #id_cnh{
+    width: 100px!important;
+}
+#id_ssp, #id_categoria, #id_uf, #id_dependentes, #id_numero{
+    width: 50px!important;
+}
+
+#id_nacionalidade, #id_naturalidade{
+    width: 200px!important;
+}
+
+#id_endereco, #id_bairro, #id_cidade, #id_concessao{
+    width: 300px!important;
+}
+
+#id_cep, #id_estado{
+    width: 80px!important;
+}
+
+#id_fone_resid, #id_celular, #id_placa_veiculo{
+    width: 130px!important;
+}
+input, textarea{
+    text-transform: uppercase;
+}
